@@ -1,0 +1,16 @@
+<div class="app-search-item-content" [ngStyle]="{ borderBottomColor: getBorderColor(card.snippet.publishedAt) }">
+  <p>{{card.snippet.title}}</p>
+  <img [src]="card.snippet.thumbnails.high.url"
+       [width]="card.snippet.thumbnails.high.width"
+       [height]="card.snippet.thumbnails.high.height"
+       [alt]="card.snippet.title"
+  >
+  <p>
+    <span>{{card.statistics.viewCount}}</span>
+    <span>{{card.statistics.commentCount}}</span>
+    <span>{{card.statistics.likeCount}}</span>
+    <span>{{card.statistics.dislikeCount}}</span>
+  </p>
+  <p>{{card.snippet.publishedAt}}</p>
+</div>
+

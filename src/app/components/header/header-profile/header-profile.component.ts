@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-profile.component.scss']
 })
 export class HeaderProfileComponent implements OnInit {
-
+  public name: string = 'Stanley';
+  public avatarSrc: string = 'assets/images/icons/avatar-icon-1.svg';
   constructor() { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
   }
 
 }

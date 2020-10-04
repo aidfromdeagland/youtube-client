@@ -7,7 +7,7 @@ export interface SearchItem {
 }
 
 interface Snippet {
-  publishedAt: Date | string;
+  publishedAt: string;
   channelId: string;
   title: string;
   description: string;
@@ -21,6 +21,7 @@ interface Snippet {
   channelTitle: string;
   tags: string[];
   categoryId: string;
+  defaultLanguage?: string;
   liveBroadcastContent: string;
   localized: { title: string, description: string };
   defaultAudioLanguage: string;
