@@ -1,1 +1,9 @@
-<p>header-settings works!</p>
+<label>filter
+  <input type="text" [(ngModel)]="filteringString" (change)="passFilter()">
+</label>
+<label>views
+  <button type="button" (click)="logIt()">sort</button>
+</label>
+<label>date
+  <button type="button">sort</button>
+</label>

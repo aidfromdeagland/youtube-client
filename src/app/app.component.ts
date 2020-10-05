@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public title: string = 'youtube-client';
+
+  public filteringString: string = '';
+
+  public receiveFilter(filterQuery: string): void {
+    this.filteringString = filterQuery;
+  }
 }

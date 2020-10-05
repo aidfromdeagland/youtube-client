@@ -1,2 +1,2 @@
-<app-header></app-header>
-<app-search-results></app-search-results>
+<app-header (filterEvent)="receiveFilter($event)"></app-header>
+<app-search-results [filteringString]="filteringString"></app-search-results>

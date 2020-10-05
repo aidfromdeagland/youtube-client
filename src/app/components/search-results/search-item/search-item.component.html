@@ -6,11 +6,11 @@
        [alt]="card.snippet.title"
   >
   <p>
-    <span>{{card.statistics.viewCount}}</span>
-    <span>{{card.statistics.commentCount}}</span>
-    <span>{{card.statistics.likeCount}}</span>
-    <span>{{card.statistics.dislikeCount}}</span>
+    <span><mat-icon>play_circle_filled</mat-icon>{{card.statistics.viewCount}}</span>
+    <span><mat-icon> comment</mat-icon>{{card.statistics.commentCount}}</span>
+    <span><mat-icon>thumb_up</mat-icon> {{card.statistics.likeCount}}</span>
+    <span><mat-icon>thumb_down</mat-icon>{{card.statistics.dislikeCount}}</span>
   </p>
-  <p>{{card.snippet.publishedAt}}</p>
+  <p>{{card.snippet.publishedAt | date: 'longDate'}}</p>
 </div>
 

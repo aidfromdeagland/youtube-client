@@ -12,7 +12,6 @@ import { HeaderProfileComponent } from './components/header/header-profile/heade
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { FormsModule } from '@angular/forms';
-import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -29,7 +28,6 @@ import { MatIconModule } from '@angular/material/icon';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    MatIconModule,
     FormsModule
   ],
   providers: [],
