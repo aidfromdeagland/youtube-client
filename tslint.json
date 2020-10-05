@@ -60,14 +60,7 @@
     "no-bitwise": true,
     "no-conditional-assignment": true,
     "no-consecutive-blank-lines": [true, 1],
-    "no-console": [
-      true,
-      "debug",
-      "info",
-      "time",
-      "timeEnd",
-      "trace"
-    ],
+    "no-console": false,
     "no-inferrable-types": [true, "ignore-params", "ignore-properties"],
     "no-construct": true,
     "no-parameter-properties": false,
